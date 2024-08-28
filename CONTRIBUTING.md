@@ -54,7 +54,7 @@ A commit message consists of 3 parts:
 - issue reference
 Example:
 ```
-quicksort.py Add QuickSort Algorithm
+quicksort.py: Add QuickSort Algorithm
 
 This adds QuickSort Algorithm which return the concatenation of the
 quicksorted list of elements that are less than or equal to the pivot, the
@@ -140,14 +140,14 @@ void quicksort(int ar_size, int *ar) {
 }
 
 int main() {
-	int ar_size = 4, i;
-	int a[4] = {2, 3, 0, 4};
-	quicksort(ar_size, a);
+    int ar_size = 4, i;
+    int a[4] = {2, 3, 0, 4};
+    quicksort(ar_size, a);
 
-	for (i=0; i<ar_size; i++){
-		printf("%d\n", a[i]);
-	}
-	return 0;
+    for (i=0; i<ar_size; i++){
+        printf("%d\n", a[i]);
+    }
+    return 0;
 }
 ```
 
@@ -165,7 +165,7 @@ def main():
     sorted_arr = quicksort(arr)
     print(sorted_arr)
 
-    
+
 if __name__ == '__main__':
     main()
 ```
@@ -174,13 +174,13 @@ if __name__ == '__main__':
 
 ```java
 public class QuickSort {
-    
+
     static void quickSort(int[] a) {
         /*
             Your implementation here...
         */
     }
-    
+
     public static void main(String[] args) {
         int[] arr = new int[] {2, 3, 0, 4};
         quickSort(arr);

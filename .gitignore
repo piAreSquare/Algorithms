@@ -1,3 +1,4 @@
+.env
 # python
 *.pyc
 # C/CPP
@@ -13,3 +14,4 @@
 .vscode/
 # coala
 *.orig
+*.iml
